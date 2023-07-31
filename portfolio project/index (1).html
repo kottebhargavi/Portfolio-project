@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webon portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/994f83b088.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+       <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href=" #project">PROJECTS</a></li>
+                <li><a href="#Skills">SKILLS</a></li>
+                <li><a href="#reachus">REACH US</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+             <span>
+            <h1><span>K.Bhargavi</span></h1> 
+            <h1><span>G.Chakradhar</span></h1> 
+            <h1><span>V.Durga Mahesh</span></h1>
+            <h1><span>A.Swamy</span></h1> 
+            <h1><span>P.Bharathi</span></h1> 
+        </span>
+        </div>
+       </div> 
+    </div>
+    <!-----------aboutus--------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                  <img src="user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">ABOUT US</h1>
+                    <p>this is our first portfolio,we got a good working skill enough in
+                         my team do this work together.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">SKILLS</p>
+                        <p class="tab-links" onclick="opentab('experience')">EXPERIENCE</p>
+                        <p class="tab-links" onclick="opentab('education')">EDUCATION</p>
+                    </div> 
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Mathematics</span><br>learned Mathematics</li>
+                            <li><span>Physics</span><br>learned physics</li>
+                            <li><span>Computers</span><br>learned computer language</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021-2022</span><br>learning c language</li>
+                            <li><span>2022-2023</span><br>learning java for backend development</li>
+                            <li><span>2023 </span><br>INTERNSHIP AT SMART BRIDGE</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Intermediate</span><br>srikanya college</li>
+                            <li><span>Bsc computers</span><br>vivekanandha COLLEGE</li>
+                        </ul>
+                    </div>
+                </div>
+         </div>
+        </div>
+    </div>
+    <!-------------projects-------------->
+    <div id="project">
+        <div class="container">
+            <h1 class="sub-title">OUR PROJECT</h1> 
+            <div class="projects">
+             <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>personal portfolio</h2>
+                <p>This is our first portfolio designed by our group,
+                    which contain the information about our team.
+                </p>
+                <a href="#">Learn more</a>
+             </div>
+             <div>
+                <i class="fa-solid fa-comment"></i>
+                <h2>Upcoming portfolio</h2>
+                <p>with this team we will create more portfolio like this,
+                    its very useful to us.
+                </p>
+                <a href="#">Learn more</a>
+             </div>
+            </div>
+        </div>
+    </div>
+    <!---------------skills---------------->
+    <div id="Skills">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1> 
+            <div class="skills-list">
+                <div class="skills" >
+                    <img src="skill-5.png">
+                    <div class="layer">
+                        <h3>C-LANGUAGE</h3>
+                 <P> C is a general-purpose computer programming language for system administration,
+                   network programming, and embedded software.</P>
+                   <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="skills">
+                    <img src="skill-4.webp">
+                    <div class="layer">
+                        <h3>physics</h3>
+                 <P>Physics is the branch of science that deals with 
+                    the structure of matter and how the fundamental constituents of the universe interact.</P>
+                   <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="skills">
+                    <img src="skill-6.jpg">
+                    <div class="layer">
+                        <h3>chemistry</h3>
+                 <P> Chemistry is the study of matter, analysing its structure,
+                     properties and behaviour to see what happens when they change in chemical reactions. </P>
+                   <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------reach us------------>
+    <div id="reachus">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Reach us</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>Bhargaviteam@example.com</p>
+                    <p><i class="fa-solid fa-phone"></i>0123456789</p>
+                    <div class="social-icons">
+                        <a href="http://facebook.com"><i class="fab fa-facebook"></i></a>
+                        <a href="http://instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a href="http://telegram.com"><i class="fab fa-telegram"></i></a>
+                        <a href="http://linked.in.com"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="your Name" required>
+                        <input type="email" name="email" placeholder="your email" required>
+                        <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+        <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+      var tabcontents = document.getElementsById("sidemenu");
+      function openmenu(){
+        sidemenu.style.right = "0";
+      }
+      function closemenu(){
+        sidemenu.style.right = "-200px";
+      }
+</script>
+</body>
+</html>
